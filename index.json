@@ -1,0 +1,22 @@
+{
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": true,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"title": "Moving Sprites",
+	"order": [
+		"Get-Ready-2c8b",
+		"Try-It-Out-661d",
+		"Change-It-27b1",
+		"Create-Your-Own-1057",
+		"Playtest-and-Reflect-2c44"
+	]
+}
