@@ -15,20 +15,20 @@ Find the two `# TODO` lines in `move.py`. Add movement for the other arrow keys.
 
 ## 2: Change the Speed
 
-Find the number `4` in each movement line. Try changing it to `2`, `8`, or `12`. How does it feel at each speed?
+Find the number `5` in each movement line. Try changing it to `2`, `8`, or `12`. How does it feel at each speed?
 
-## 3: Add a Boundary
+## 3: Complete the Boundary Logic
 
-Right now the player can walk off the screen. Add code after the movement block to keep the player on screen. Try one of these approaches:
+`move.py` already wraps the player left and right. Look at that code — then add the same wrapping for up and down. The `# TODO` comment shows you where.
 
-- **Stop at the edge:** `if player.x < 0: player.x = 0`
-- **Wrap around:** `if player.x < 0: player.x = WIDTH`
+- If `player.y` goes below `0`, wrap to `HEIGHT`
+- If `player.y` goes above `HEIGHT`, wrap to `0`
 
-What's the difference between stopping and wrapping? Which feels better for your game?
+You could also try **stopping** instead of wrapping: `if player.y < 0: player.y = 0`. What's the difference? Which feels better for your game?
 
-## 4: Add a Second Actor
+## 4: Experiment in tryit.py
 
-Try adding an alien that starts at position `(100, 100)`. Don't forget to draw it in `draw()`!
+Open `tryit.py` — that's your blank canvas. Try a different boundary style than the one in `move.py`. Can you make your player stop at the edges instead of wrapping, or bounce?
 
 ---
 
