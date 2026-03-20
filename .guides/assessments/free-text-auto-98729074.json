@@ -1,0 +1,35 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-98729074",
+	"source": {
+		"name": "Predict",
+		"showName": false,
+		"instructions": "**What do you think this code does?** What happens if you hold the right arrow key? What might be missing?",
+		"command": "Null",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 1,
+		"useMaximumScore": false,
+		"showExpectedAnswerOption": {
+			"type": "Never"
+		}
+	}
+}

@@ -7,13 +7,14 @@ Swap with a neighbor and play each other's games for 2 minutes.
 - Does the player stay on screen in a way that feels right?
 - What would make this game more interesting?
 
+{Check It!|assessment}(free-text-auto-2945809074)
+
 ---
 
 **Reflect on your own work:**
 
-What's one thing that was harder than you expected? What's one thing you're proud of?
+{Check It!|assessment}(free-text-auto-1363804995)
 
-> *[TODO: insert free-text-auto or free-text assessment — "What was challenging? What are you proud of?"]*
 
 ---
 

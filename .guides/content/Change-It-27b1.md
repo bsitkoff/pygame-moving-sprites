@@ -7,9 +7,7 @@
 
 ---
 
-Don't worry — you can't break anything permanently! Experiment freely.
-
-## 1: Complete the Missing Directions
+## 1: Finish the movement code
 
 Find the two `# TODO` lines in `move.py`. Add movement for the other arrow keys. Run the game and test each direction.
 

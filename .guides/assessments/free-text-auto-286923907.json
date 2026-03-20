@@ -1,0 +1,53 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-286923907",
+	"source": {
+		"name": "Movement",
+		"showName": false,
+		"instructions": "What happens when the player reaches the  left and right edges of the screen?  Why?",
+		"command": "Null",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				}
+			],
+			"files": [
+				"move.py"
+			],
+			"opened": [
+				{
+					"type": "preview",
+					"panelNumber": 0,
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "move.py"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 1,
+		"useMaximumScore": false,
+		"showExpectedAnswerOption": {
+			"type": "Never"
+		}
+	}
+}

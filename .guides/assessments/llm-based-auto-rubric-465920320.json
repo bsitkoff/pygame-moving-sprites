@@ -1,0 +1,74 @@
+{
+	"type": "llm-based-auto-rubric",
+	"taskId": "llm-based-auto-rubric-465920320",
+	"source": {
+		"name": "code_check",
+		"showName": false,
+		"instructions": "After you test your code, submit it here.",
+		"metadata": {
+			"tags": [],
+			"files": [
+				"tryit.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "tryit.py"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 2,
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 3,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 4,
+		"arePartialPointsAllowed": true,
+		"rubrics": [
+			{
+				"id": "1",
+				"title": "Player Sprite Movement",
+				"description": "The game includes a player sprite that can be controlled using keyboard input to move in all four directions (up, down, left, right). The movement should be responsive and functional, allowing the player to navigate the sprite around the screen using appropriate key controls.",
+				"points": 1
+			},
+			{
+				"id": "2",
+				"title": "Boundary Logic Implementation",
+				"description": "The game implements proper boundary logic to handle what happens when the player sprite reaches the edges of the screen. This can be accomplished either by preventing the sprite from moving off-screen (collision with boundaries) or by implementing wrap-around functionality where the sprite appears on the opposite side when it exits one edge.",
+				"points": 1
+			},
+			{
+				"id": "3",
+				"title": "Additional Actor Present",
+				"description": "The game includes at least one other Actor (sprite) that is visible on the screen in addition to the player sprite. This additional actor should be properly instantiated and displayed within the game window, contributing to the overall game environment.",
+				"points": 1
+			},
+			{
+				"id": "4",
+				"title": "Custom Sprite Usage",
+				"description": "The game uses custom sprites that are not the default 'happy' and 'alien' sprites. Students should have uploaded their own image files (preferably 80x80 px PNG format) to the images folder and properly referenced them in their code using the Actor() constructor with the correct filename.",
+				"points": 1
+			}
+		],
+		"rubricsRequirements": "Build a game in `tryit.py` that:\n\n1. Has a **player sprite** that moves with the keyboard in all four directions\n2. Has **boundary logic** so the player stays on screen (or wraps around)\n3. Has **at least one other Actor** visible on screen\n4. Uses **your own sprite** (not `happy` and `alien`)",
+		"solutions": [
+			{
+				"path": ".guides/secure/game_solution.py",
+				"content": "import pgzrun\n\nWIDTH = 800\nHEIGHT = 600\n\n# Actor is a sprite — the name matches the image file in images/\n# Students should replace 'star' and 'ufo' with their own sprite names\nplayer = Actor('star')\nplayer.pos = (WIDTH // 2, HEIGHT // 2)\n\nalien = Actor('ufo')\nalien.pos = (100, 100)\n\n\ndef update():\n    # Check which keys are held down and move the player\n    if keyboard.right:\n        player.x += 5\n    if keyboard.left:\n        player.x -= 5\n    if keyboard.up:\n        player.y -= 5\n    if keyboard.down:\n        player.y += 5\n\n    # Wrap around the screen edges (disappear one side, appear the other)\n    if player.x > WIDTH:\n        player.x = 0\n    if player.x < 0:\n        player.x = WIDTH\n\n    # Wrap around the top and bottom edges\n    if player.y > HEIGHT:\n        player.y = 0\n    if player.y < 0:\n        player.y = HEIGHT\n\n\ndef draw():\n    screen.fill((0, 0, 0))\n\n    player.draw()\n    alien.draw()\n\n    screen.draw.text(\"Use arrow keys to move\", (10, 10), fontsize=24, color=\"white\")\n\n\npgzrun.go()"
+			}
+		]
+	}
+}

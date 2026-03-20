@@ -6,26 +6,30 @@ Time to build your own moving sprite game in `tryit.py`.
 
 ### 🖼️ Using Your Own Sprite
 
-*Need a custom image? Here's the workflow — or rewatch the video from Lesson 1.*
+*Stuck?  Go back and watch the video from the last project*
 
-1. Find an image that's **at least 80×80 pixels**
-2. Open **[Squoosh](https://squoosh.app)**, resize to about 80×80, and download *(Squoosh can make images smaller but not larger — start with a big enough image!)*
+### 🖼️ Using Your Own Sprite
+
+1. Find a png image you want to use and save it to your download folder
+2. Open **[Canva Image Resizer](https://www.canva.com/features/image-resizer/)**, upload your image, resize it to **80×80 px**, and download as PNG
 3. Upload the file to your `images/` folder in Codio
 4. Update the `Actor('name')` in your code to match the filename (no `.png`)
-
 ---
 
 ### Requirements
+
 
 Build a game in `tryit.py` that:
 
 1. Has a **player sprite** that moves with the keyboard in all four directions
 2. Has **boundary logic** so the player stays on screen (or wraps around)
 3. Has **at least one other Actor** visible on screen
-4. Uses **your own sprite** (not just `happy` and `alien`)
+4. Uses **your own sprite** (not `happy` and `alien`)
 
-> *[TODO: insert LLM rubric autograder — 4 rubric items matching the requirements above]*
+{Check It!|assessment}(llm-based-auto-rubric-465920320)
+
 
 ---
 
-If you finish early: can you make one actor move on its own, without keyboard input?
+Extension: can you make one actor move on its own, without keyboard input?
+

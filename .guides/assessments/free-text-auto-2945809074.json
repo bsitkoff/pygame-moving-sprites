@@ -1,0 +1,35 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-2945809074",
+	"source": {
+		"name": "testing",
+		"showName": false,
+		"instructions": "How was the game you tested different than your own?",
+		"command": "python3 .guides/secure/freetext.py --question 'How was the game you tested different than your own?' --use-llm",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 1,
+		"useMaximumScore": false,
+		"showExpectedAnswerOption": {
+			"type": "Never"
+		}
+	}
+}
