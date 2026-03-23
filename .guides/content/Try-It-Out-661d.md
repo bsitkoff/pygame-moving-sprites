@@ -1,7 +1,16 @@
 ## Try It Out
 > 📹 **Watch:** Actors and Images + Keyboard Input in update()
-> *Record in Screencastify — Actor('name'), .pos, .draw(); then keyboard.left in update() vs on_key_down*
-> *Objective: I can create an Actor and move it smoothly with the keyboard.*
+
+<iframe width="720" height="600"
+  src="https://app.screencastify.com/watch/4yglaV4xlmDDyMc2IOXw/embed"
+  title="Moving the Player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+  
+
 > **[ADD VIDEO URL WHEN RECORDED]**
 
 Type **python3 move.py** in the terminal to start `move.py`. When you want to stop it, you can click the x in the windown or press **control-c**

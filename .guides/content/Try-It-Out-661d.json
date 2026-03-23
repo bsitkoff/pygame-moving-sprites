@@ -28,5 +28,5 @@
 	"teacherOnly": false,
 	"closeTerminalSession": true,
 	"learningObjectives": "",
-	"layout": "2-panels"
+	"layout": "2-panels-guides-left"
 }

@@ -23,6 +23,7 @@ def update():
         player.x = 0
     if player.x < 0:
         player.x = WIDTH
+        
 
     # TODO: add wrapping for the y axis too
 
