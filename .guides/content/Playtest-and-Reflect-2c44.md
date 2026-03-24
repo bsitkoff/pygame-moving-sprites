@@ -20,8 +20,7 @@ Swap with a neighbor and play each other's games for 2 minutes.
 
 **How the pros think about movement:**
 
-> 📹 [RIOT VIDEO: Episode 6 — Character Animation (from "So You Wanna Make Games??" playlist)]
-> *Embed from: https://www.youtube.com/playlist?list=PL42m9XiTqPHJdJuVXO6Vf5ta5D07peiVx*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RqRoXLLwJ8g?si=LAxhv4Na-JHpudgC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 How a character moves says a lot about their personality. This video from Riot Games shows how animators think about movement — the same ideas apply even with simple sprites.
 
