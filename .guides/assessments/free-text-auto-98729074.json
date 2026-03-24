@@ -5,7 +5,7 @@
 		"name": "Predict",
 		"showName": false,
 		"instructions": "**What do you think this code does?** What happens if you hold the right arrow key? What might be missing?",
-		"command": "Null",
+		"command": "python3 .guides/secure/freetext.py --question 'What do you think this code does? What happens if you hold the right arrow key? What might be missing?' --use-llm",
 		"timeoutSeconds": 40,
 		"metadata": {
 			"tags": [
