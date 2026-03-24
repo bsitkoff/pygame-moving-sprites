@@ -9,11 +9,9 @@
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen
 ></iframe>
-  
 
-> **[ADD VIDEO URL WHEN RECORDED]**
 
-Type **python3 move.py** in the terminal to start `move.py`. When you want to stop it, you can click the x in the windown or press **control-c**
+Type **python3 move.py** in the terminal to start `move.py`. When you want to stop it, you can click the x in the window or press **control-c**
 
 Try pressing the arrow keys. You'll notice some keys work — and some don't. That's intentional.
 

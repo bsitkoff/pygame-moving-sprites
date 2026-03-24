@@ -6,9 +6,7 @@ Time to build your own moving sprite game in `tryit.py`.
 
 ### 🖼️ Using Your Own Sprite
 
-*Stuck?  Go back and watch the video from the last project*
-
-### 🖼️ Using Your Own Sprite
+*Stuck? Go back and watch the video from the last project.*
 
 1. Find a png image you want to use and save it to your download folder
 2. Open **[Canva Image Resizer](https://www.canva.com/features/image-resizer/)**, upload your image, resize it to **80×80 px**, and download as PNG
