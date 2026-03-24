@@ -4,7 +4,7 @@
 	"source": {
 		"name": "Movement",
 		"showName": false,
-		"instructions": "What happens when the player reaches the  left and right edges of the screen?  Why?",
+		"instructions": "What happens when the player reaches the left and right edges of the screen? Why?",
 		"command": "python3 .guides/secure/freetext.py --question 'What happens when the player reaches the left and right edges of the screen? Why?' --use-llm",
 		"timeoutSeconds": 40,
 		"metadata": {
