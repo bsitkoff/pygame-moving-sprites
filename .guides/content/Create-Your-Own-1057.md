@@ -29,5 +29,5 @@ Build a game in `tryit.py` that:
 
 ---
 
-Extension: can you make one actor move on its own, without keyboard input?
+Extension: Can you make one actor move on its own, without keyboard input?
 
