@@ -4,8 +4,8 @@
 	"source": {
 		"name": "reflect",
 		"showName": false,
-		"instructions": "What elements of your game feel fun?  What would you like to learn to do that would make this game better?\n",
-		"command": "python3 .guides/secure/freetext.py --question 'What elements of your game feel fun?  What would you like to learn to do that would make this game better?' --use-llm",
+		"instructions": "What elements of your game feel fun? What would you like to learn to do that would make this game better?",
+		"command": "python3 .guides/secure/freetext.py --question 'What elements of your game feel fun? What would you like to learn to do that would make this game better?' --use-llm",
 		"timeoutSeconds": 40,
 		"metadata": {
 			"tags": [

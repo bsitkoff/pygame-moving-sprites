@@ -13,7 +13,7 @@
 
 ## 1: Finish the movement code
 
-Find the two `# TODO` lines in `move.py`. Add movement for the other arrow keys. Run the game and test each direction.
+Find the `# TODO` line in `move.py` that says `add keyboard.left, keyboard.up, keyboard.down`. Add those three movement lines. Run the game and test each direction.
 
 ## 2: Change the Speed
 

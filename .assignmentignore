@@ -1,2 +1,19 @@
+# AI authoring artifacts — never share with students
 CLAUDE.md
-.assignmentignore
+.claude
+.cursor
+.cursorrules
+.cursorignore
+.aider*
+AGENTS.md
+.specstory
+.windsurf
+.windsurfrules
+.continue
+.github/copilot-instructions.md
+.codeium
+.tabnine
+# Common dev/build artifacts
+node_modules
+.DS_Store
+.env

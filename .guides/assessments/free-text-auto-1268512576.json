@@ -4,8 +4,8 @@
 	"source": {
 		"name": "boundaries",
 		"showName": false,
-		"instructions": "How was your game different when you stopped at the boundary instead of wrapping?  Which approach will you use in your own game?",
-		"command": "python3 .guides/secure/freetext.py --question 'How was your game different when you stopped at the boundary instead of wrapping?  Which approach will you use in your own game?' --use-llm",
+		"instructions": "How was your game different when you stopped at the boundary instead of wrapping? Which approach will you use in your own game?",
+		"command": "python3 .guides/secure/freetext.py --question 'How was your game different when you stopped at the boundary instead of wrapping? Which approach will you use in your own game?' --use-llm",
 		"timeoutSeconds": 40,
 		"metadata": {
 			"tags": [
